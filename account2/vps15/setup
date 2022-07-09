@@ -21,7 +21,7 @@ echo "1" > ~/db/sa 2>&1
 for i in {1..40}
 do
   rclone config delete $i
-  rclone config create $i drive scope=drive root_folder_id=0ABHiXUVQfIP1Uk9PVA service_account_file=~/vps15/$i.json team_drive=0ABHiXUVQfIP1Uk9PVA
+  rclone config create $i drive scope=drive root_folder_id=0ALpISLu6rWbqUk9PVA service_account_file=~/vps15/$i.json team_drive=0ALpISLu6rWbqUk9PVA
 done
 
 # PLOTTING
